@@ -1,12 +1,22 @@
 .tipList {
     height: 100%;
+    font-weight: bold;
 }
 
-.tipList h3 {
+.tipList__title {
     text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
 }
 
 .tip {
-    padding: 1em;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 0.5em;
+    margin: 1em;
+    border: 1px solid whitesmoke;
+    background: whitesmoke;
+    border-radius: 25px;
 }
 
