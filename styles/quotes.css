@@ -1,7 +1,7 @@
 .quoteList {
-    background-color: lightyellow;
+    padding: 1em;
 }
 
 .quote {
-    background-color: yellow;
+    padding: 0.3em;
 }

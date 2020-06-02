@@ -1,9 +1,14 @@
 .fishList {
-    background-color: mediumorchid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .fish {
-    background-color: mediumvioletred;
+    background-color: aquamarine;
+    margin: 1em;
 }
 
 

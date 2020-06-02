@@ -1,8 +1,12 @@
 .tipList {
-    background-color: dodgerblue;
     height: 100%;
 }
 
-.tip {
-    background-color: royalblue;
+.tipList h3 {
+    text-align: center;
 }
+
+.tip {
+    padding: 1em;
+}
+
