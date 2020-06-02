@@ -23,4 +23,8 @@
 
 .underTheBanner__right {
     flex: 1;
+    background-image: url("https://i.pinimg.com/originals/9d/f3/44/9df3449f625724727052eb5cbd986763.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
