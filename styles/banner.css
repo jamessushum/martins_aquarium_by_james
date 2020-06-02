@@ -1,3 +1,12 @@
 .banner {
-    background-color: darkgoldenrod;
+    display: flex;
+    max-height: 100px;
+}
+
+.banner__logo {
+    max-height: 100px;
+}
+
+.banner__title {
+    padding: 0.8em;
 }
