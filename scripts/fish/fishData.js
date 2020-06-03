@@ -26,7 +26,7 @@ const fishCollection = [
   {
     name: "Jill",
     species: "Goldfish",
-    picture: "https://shop.r10s.jp/chanet/cabinet/471/46968-1.jpg",
+    picture: "https://img.freepik.com/free-photo/goldfish-isolated_37874-1649.jpg?size=626&ext=jpg",
     location: "Living Room Aquarium",
     food: "Pellets",
     length: 2,
@@ -72,3 +72,42 @@ const fishCollection = [
     length: 8,
   },
 ]
+
+// Multiples of 3 fish (3, 6, 9, 12 etc.)
+const mostHolyFish = () => {
+  const holyFish = [];
+
+  for (const currentFishObject of fishCollection) {
+    if (currentFishObject.length % 3 === 0) {
+      holyFish.push(currentFishObject);
+    }
+  }
+
+  return holyFish;
+}
+
+// Multiples of 5 fish (5, 10, 15, 20 etc.)
+const soldierFish = () => {
+  const soldierFish = [];
+
+  for (const currentFishObject of fishCollection) {
+    if (currentFishObject.length % 5 === 0 && currentFishObject.length % 3 !== 0) {
+      soldierFish.push(currentFishObject);
+    }
+  }
+
+  return soldierFish;
+}
+
+// Any fish not a multiple of 3 or 5 
+const nonHolyFish = () => {
+  const basicFish = [];
+
+  for (const currentFishObject of fishCollection) {
+    if (currentFishObject.length % 3 !== 0 && currentFishObject.length % 5 !== 0) {
+      basicFish.push(currentFishObject);
+    }
+  }
+
+  return basicFish;
+}
