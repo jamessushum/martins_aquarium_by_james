@@ -15,7 +15,7 @@ const locationCollection = [
     location: "Fish Aisle",
     temperature: "Freezing",
     fishType: "Salmon, Tilapia, Swordfish",
-    picture: "https://lh3.googleusercontent.com/proxy/mOsdI4-rbObNJlGdfjebfdTQxJbavqHKC50uZux0hqtDmfrMa_JuF6EJgvqbui3ygeL1AD2lcGpYxrFJHVtUatLaXzeWZVRiQJoPhdq7Q8mP32N4i1V0gQQv38lbBZ4C_GMGAJ7C5bI1sEI0whgs3_NnytE5nsJQ0_r2yNMisnk"
+    picture: "https://media-cdn.tripadvisor.com/media/photo-s/04/5a/7c/18/jackson-whole-grocer.jpg"
   },
   {
     location: "Pond in Tokyo",
