@@ -73,41 +73,55 @@ const fishCollection = [
   },
 ]
 
-// Multiples of 3 fish (3, 6, 9, 12 etc.)
-const mostHolyFish = () => {
-  const holyFish = [];
+// // Multiples of 3 fish (3, 6, 9, 12 etc.)
+// const mostHolyFish = () => {
+//   const holyFish = [];
 
-  for (const currentFishObject of fishCollection) {
-    if (currentFishObject.length % 3 === 0) {
-      holyFish.push(currentFishObject);
-    }
+//   for (const currentFishObject of fishCollection) {
+//     if (currentFishObject.length % 3 === 0) {
+//       holyFish.push(currentFishObject);
+//     }
+//   }
+
+//   return holyFish;
+// }
+
+// // Multiples of 5 fish (5, 10, 15, 20 etc.)
+// const soldierFish = () => {
+//   const soldierFish = [];
+
+//   for (const currentFishObject of fishCollection) {
+//     if (currentFishObject.length % 5 === 0 && currentFishObject.length % 3 !== 0) {
+//       soldierFish.push(currentFishObject);
+//     }
+//   }
+
+//   return soldierFish;
+// }
+
+// // Any fish not a multiple of 3 or 5 
+// const nonHolyFish = () => {
+//   const basicFish = [];
+
+//   for (const currentFishObject of fishCollection) {
+//     if (currentFishObject.length % 3 !== 0 && currentFishObject.length % 5 !== 0) {
+//       basicFish.push(currentFishObject);
+//     }
+//   }
+
+//   return basicFish;
+// }
+
+const holyFish = [];
+const soldierFish = [];
+const basicFish = [];
+
+for (const currentFishObject of fishCollection) {
+  if (currentFishObject.length % 3 === 0) {
+    holyFish.push(currentFishObject);
+  } else if (currentFishObject.length % 5 === 0 && currentFishObject.length % 3 !==0) {
+    soldierFish.push(currentFishObject);
+  } else {
+    basicFish.push(currentFishObject);
   }
-
-  return holyFish;
-}
-
-// Multiples of 5 fish (5, 10, 15, 20 etc.)
-const soldierFish = () => {
-  const soldierFish = [];
-
-  for (const currentFishObject of fishCollection) {
-    if (currentFishObject.length % 5 === 0 && currentFishObject.length % 3 !== 0) {
-      soldierFish.push(currentFishObject);
-    }
-  }
-
-  return soldierFish;
-}
-
-// Any fish not a multiple of 3 or 5 
-const nonHolyFish = () => {
-  const basicFish = [];
-
-  for (const currentFishObject of fishCollection) {
-    if (currentFishObject.length % 3 !== 0 && currentFishObject.length % 5 !== 0) {
-      basicFish.push(currentFishObject);
-    }
-  }
-
-  return basicFish;
 }

@@ -16,41 +16,55 @@
 
 // }
 
-// Function to show only holy fish in the browser
-const showHolyFish = () => {
-  const fishObjectArray = mostHolyFish();
+// // Function to show only holy fish in the browser
+// const showHolyFish = () => {
+//   const fishObjectArray = mostHolyFish();
 
-  for (const fishObject of fishObjectArray) {
-    const fishHTMLRepresentation = fishConverter(fishObject);
+//   for (const fishObject of fishObjectArray) {
+//     const fishHTMLRepresentation = fishConverter(fishObject);
+//     const fishArticleElement = document.querySelector(".fishList");
+//     fishArticleElement.innerHTML += fishHTMLRepresentation;
+//   }
+// }
+
+// // Function to show only soldier fish in the browser
+// const showSoldierFish = () => {
+//   const fishObjectArray = soldierFish();
+
+//   for (const fishObject of fishObjectArray) {
+//     const fishHTMLRepresentation = fishConverter(fishObject);
+//     const fishArticleElement = document.querySelector(".fishList");
+//     fishArticleElement.innerHTML += fishHTMLRepresentation;
+//   }
+// }
+// // Function to show only common fish in the browser
+// const showBasicFish = () => {
+//   const fishObjectArray = nonHolyFish();
+
+//   for (const fishObject of fishObjectArray) {
+//     const fishHTMLRepresentation = fishConverter(fishObject);
+//     const fishArticleElement = document.querySelector(".fishList");
+//     fishArticleElement.innerHTML += fishHTMLRepresentation;
+//   }
+// }
+
+// // Invoke the show functions
+// const fishList = () => {
+//   showHolyFish();
+//   showSoldierFish();
+//   showBasicFish();
+// }
+
+const displayFish = (fishArray) => {
+  for (const fishObject of fishArray) {
+    const fishHTML = fishConverter(fishObject);
     const fishArticleElement = document.querySelector(".fishList");
-    fishArticleElement.innerHTML += fishHTMLRepresentation;
+    fishArticleElement.innerHTML += fishHTML;
   }
 }
 
-// Function to show only soldier fish in the browser
-const showSoldierFish = () => {
-  const fishObjectArray = soldierFish();
-
-  for (const fishObject of fishObjectArray) {
-    const fishHTMLRepresentation = fishConverter(fishObject);
-    const fishArticleElement = document.querySelector(".fishList");
-    fishArticleElement.innerHTML += fishHTMLRepresentation;
-  }
-}
-// Function to show only common fish in the browser
-const showBasicFish = () => {
-  const fishObjectArray = nonHolyFish();
-
-  for (const fishObject of fishObjectArray) {
-    const fishHTMLRepresentation = fishConverter(fishObject);
-    const fishArticleElement = document.querySelector(".fishList");
-    fishArticleElement.innerHTML += fishHTMLRepresentation;
-  }
-}
-
-// Invoke the show functions
 const fishList = () => {
-  showHolyFish();
-  showSoldierFish();
-  showBasicFish();
+  displayFish(holyFish);
+  displayFish(soldierFish);
+  displayFish(basicFish);
 }
