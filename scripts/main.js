@@ -1,5 +1,9 @@
-// Invokes the function to insert fish html objects into the DOM
-fishList();
+// Invoking get JSON function first then calling fishList to display fish objects in the DOM
+getFishData().then(
+  () => {
+    fishList();
+  }
+)
 
 // Invokes the function to insert tip html objects into the DOM
 tipList();
