@@ -5,8 +5,12 @@ getFishData().then(
   }
 )
 
-// Invokes the function to insert tip html objects into the DOM
-tipList();
+// Invoking getTipsData then tipsList to display tips list to the DOM
+getTipsData().then(
+  () => {
+    tipList();
+  }
+)
 
 // Invoking getLocationsData then locationList to display locations list to the DOM
 getLocationsData().then(
