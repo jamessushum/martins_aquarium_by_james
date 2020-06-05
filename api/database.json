@@ -6,7 +6,8 @@
       "picture": "https://m.liveaquaria.com/images/categories/large/lg_39901_Yellow_Belly_Regal_Blue_Tang.jpg",
       "location": "Pacific Ocean",
       "food": "Baby Shrimp",
-      "length": 6
+      "length": 6,
+      "id": 1
     },
     {
       "name": "Memo",
@@ -14,7 +15,8 @@
       "picture": "https://cdn.powered-by-nitrosell.com/product_images/11/2575/large-common%20clown.jpg",
       "location": "Indian Ocean",
       "food": "Hot Dogs",
-      "length": 3
+      "length": 3,
+      "id": 2
     },
     {
       "name": "George",
@@ -22,7 +24,8 @@
       "picture": "https://aquariumtidings.com/wp-content/uploads/2014/06/Depositphotos_45215265_original.jpg",
       "location": "Fish Bowl",
       "food": "Rice",
-      "length": 2
+      "length": 2,
+      "id": 3
     },
     {
       "name": "Jill",
@@ -30,7 +33,8 @@
       "picture": "https://img.freepik.com/free-photo/goldfish-isolated_37874-1649.jpg?size=626&ext=jpg",
       "location": "Living Room Aquarium",
       "food": "Pellets",
-      "length": 2
+      "length": 2,
+      "id": 4
     },
     {
       "name": "Kai",
@@ -38,7 +42,8 @@
       "picture": "https://d19hpgg8wsy4c1.cloudfront.net/wp-content/uploads/2015/04/koi-fish-for-aquaponics.jpg",
       "location": "A pond in Tokyo",
       "food": "Nappa Cabbage",
-      "length": 10
+      "length": 10,
+      "id": 5
     },
     {
       "name": "Solomon",
@@ -46,7 +51,8 @@
       "picture": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/8DDB/production/_97251363_155048410.jpg",
       "location": "Fish Department",
       "food": "Guppies",
-      "length": 15
+      "length": 15,
+      "id": 6
     },
     {
       "name": "Chief",
@@ -54,7 +60,8 @@
       "picture": "https://fishinpedia.com/wp-content/uploads/2017/06/largemouth-bass2.jpg",
       "location": "Neighborhood Pond",
       "food": "Baby Tilapia",
-      "length": 12
+      "length": 12,
+      "id": 7
     },
     {
       "name": "Arthur",
@@ -62,7 +69,8 @@
       "picture": "https://ichef.bbci.co.uk/news/976/cpsprodpb/12D00/production/_110665077_swordfish.jpg",
       "location": "Northern Sea",
       "food": "Catfish",
-      "length": 30
+      "length": 30,
+      "id": 8
     },
     {
       "name": "Tilly",
@@ -70,7 +78,8 @@
       "picture": "https://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-dadisc9a8aoop1ibohe7gr5uj6-20160627014934.Medi.jpeg",
       "location": "Freezer Section",
       "food": "Chocolate Ice Cream",
-      "length": 8
+      "length": 8,
+      "id": 9
     }
   ],
   "locations": [
@@ -78,65 +87,81 @@
       "location": "Pacific Ocean",
       "temperature": "Cool",
       "fishType": "Blue Tang, Clown Fish",
-      "picture": "https://cdn2.lamag.com/wp-content/uploads/sites/6/2017/01/OceanReal.jpg"
+      "picture": "https://cdn2.lamag.com/wp-content/uploads/sites/6/2017/01/OceanReal.jpg",
+      "id": 1
     },
     {
       "location": "Fish Bowl",
       "temperature": "Room Temperature",
       "fishType": "Guppies, Goldfish",
-      "picture": "https://www.netclipart.com/pp/m/92-923914_fish-bowl-transparent-png-fish-bowl-png.png"
+      "picture": "https://www.netclipart.com/pp/m/92-923914_fish-bowl-transparent-png-fish-bowl-png.png",
+      "id": 2
     },
     {
       "location": "Fish Aisle",
       "temperature": "Freezing",
       "fishType": "Salmon, Tilapia, Swordfish",
-      "picture": "https://media-cdn.tripadvisor.com/media/photo-s/04/5a/7c/18/jackson-whole-grocer.jpg"
+      "picture": "https://media-cdn.tripadvisor.com/media/photo-s/04/5a/7c/18/jackson-whole-grocer.jpg",
+      "id": 3
     },
     {
       "location": "Pond in Tokyo",
       "temperature": "Warm",
       "fishType": "Koi",
-      "picture": "https://images.fineartamerica.com/images-medium-large-5/japanese-garden-footbridge-over-the-pond-gary-heller-gary-heller.jpg"
+      "picture": "https://images.fineartamerica.com/images-medium-large-5/japanese-garden-footbridge-over-the-pond-gary-heller-gary-heller.jpg",
+      "id": 4
     }
   ],
   "tips": [
     {
-      "tip": "Test the water quality"
+      "tip": "Test the water quality",
+      "id": 1
     },
     {
-      "tip": "Remove algae"
+      "tip": "Remove algae",
+      "id": 2
     },
     {
-      "tip": "Prune the plants"
+      "tip": "Prune the plants",
+      "id": 3
     },
     {
-      "tip": "Turn off equipment"
+      "tip": "Turn off equipment",
+      "id": 4
     },
     {
-      "tip": "Vacuum the substrate"
+      "tip": "Vacuum the substrate",
+      "id": 5
     },
     {
-      "tip": "Clean the filter"
+      "tip": "Clean the filter",
+      "id": 6
     },
     {
-      "tip": "Refill the water"
+      "tip": "Refill the water",
+      "id": 7
     },
     {
-      "tip": "Turn on equipment"
+      "tip": "Turn on equipment",
+      "id": 8
     },
     {
-      "tip": "Wipe the glass"
+      "tip": "Wipe the glass",
+      "id": 9
     }
   ],
   "quotes": [
     {
-      "quote": "Fish is the only food that is considered spoiled once it smells like what it is. - P.J. O'Rourke"
+      "quote": "Fish is the only food that is considered spoiled once it smells like what it is. - P.J. O'Rourke",
+      "id": 1
     },
     {
-      "quote": "Remember folks, fish are like relatives. After two days, they stink. - Bobby Heenan"
+      "quote": "Remember folks, fish are like relatives. After two days, they stink. - Bobby Heenan",
+      "id": 2
     },
     {
-      "quote": "Give me a fish and I eat for a day. Teach me to fish and I eat for a lifetime. - Chinese Proverbs"
+      "quote": "Give me a fish and I eat for a day. Teach me to fish and I eat for a lifetime. - Chinese Proverbs",
+      "id": 3
     }
   ]
 }
