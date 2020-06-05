@@ -14,9 +14,13 @@
     text-align: center;
     font-size: 18px;
     padding: 0.5em;
-    margin: 1em;
+    margin: 2em;
     border: 1px solid whitesmoke;
     background: whitesmoke;
     border-radius: 25px;
+}
+
+.tip:hover {
+    transform: rotate(10deg);
 }
 
