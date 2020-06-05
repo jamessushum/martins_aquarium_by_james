@@ -15,3 +15,12 @@ const tipList = () => {
     tipArticleElement.innerHTML += tipHTML;
   }
 }
+
+// Toggle functionality
+// Grab the HTML DOM tip toggle button 
+const tipVisibilityButton = document.querySelector(".toggleTip");
+
+// Add event listener when button is clicked hide the tips list
+tipVisibilityButton.addEventListener('click', (clickEvent) => {
+  document.querySelector(".tipList").classList.toggle("hidden");
+})
