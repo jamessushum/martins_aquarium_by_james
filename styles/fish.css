@@ -4,6 +4,8 @@
     justify-content: space-evenly;
     padding-top: 1em;
     padding-bottom: 1em;
+    background-color: cornflowerblue;
+    border: 1px solid red;
 }
 
 .fish {
@@ -15,4 +17,17 @@
 .fish__picture {
     max-width: 15rem;
     max-height: 15rem;
+}
+
+.fishList__title {
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    margin: 0;
+    padding: 0.5em;
+    background-color: cornflowerblue;
+    border: 1px solid green;
+}
+
+.fish__details {
+    display: 
 }
