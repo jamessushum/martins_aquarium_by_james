@@ -13,3 +13,12 @@ const locationList = () => {
     locationArticleElement.innerHTML += locationHTML;
   }
 }
+
+// Toggle functionality
+// Grab the HTML DOM toggle locations button
+const locationVisibilityButton = document.querySelector(".toggleLocation");
+
+// Add event listener when toggle locations button clicked, hide locations list
+locationVisibilityButton.addEventListener('click', (clickEvent) => {
+  document.querySelector(".locationList").classList.toggle("hidden");
+})
