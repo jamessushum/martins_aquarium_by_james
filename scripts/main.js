@@ -18,3 +18,10 @@ getLocationsData().then(
     locationList();
   }
 )
+
+// Invoking getQuoteData then quoteList to display quote list to the DOM
+getQuoteData().then(
+  () => {
+    quoteList();
+  }
+)
