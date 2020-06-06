@@ -9,6 +9,7 @@
 .location__picture {
     width: 250px;
     height: 250px;
+    border-radius: 5px;
 }
 
 .locationList__title {
@@ -35,6 +36,7 @@
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
 }
 
 .location:hover .location__inner {
@@ -55,9 +57,10 @@
 }
 
 .location__details {
-    background-color: darksalmon;
-    color: whitesmoke;
+    background-color: lightsalmon;
+    color: black;
     transform: rotateY(180deg);
     font-family: 'Acme', sans-serif;
     font-size: 20px;
+    border-radius: 5px;
 }
