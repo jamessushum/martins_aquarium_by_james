@@ -1,12 +1,23 @@
 .banner {
     display: flex;
-    max-height: 100px;
+    max-height: 125px;
 }
 
 .banner__logo {
-    max-height: 100px;
+    max-height: 125px;
+    flex: 1;
 }
 
 .banner__title {
-    padding: 0.8em;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    flex: 2;
+}
+
+.banner__gif {
+    background-image: url(https://thumbs.gfycat.com/GiddyFrailHogget-size_restricted.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex: 3;
+    border-radius: 20px;
 }
