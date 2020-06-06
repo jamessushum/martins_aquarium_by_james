@@ -1,7 +1,23 @@
 .quoteList {
     padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: lightsteelblue;
+    padding-bottom: 1.5em;
+}
+
+.quoteList__title {
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    background-color: lightsteelblue;
 }
 
 .quote {
     padding: 0.3em;
+    font-family: 'Acme', sans-serif;
+    width: 20%;
 }
